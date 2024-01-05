@@ -3,11 +3,6 @@ import readlineSync from 'readline-sync';
 
 (async () => {
   const url = readlineSync.question('Masukkan URL atau link: ');
-  const username = readlineSync.question('Masukkan username/email: ');
-  const password = readlineSync.question('Masukkan password: ', {
-    hideEchoBack: true, // Untuk menyembunyikan input password
-  });
-
   const browser = await launch({
     executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe",
     headless: false,
@@ -19,10 +14,16 @@ import readlineSync from 'readline-sync';
   await page.goto(url);
 
   try {
+    
+    
     // Periksa apakah selector #mobile-number-or-email ada di halaman
     const isSelectorExists = await page.$("#mobile-number-or-email");
 
     if (isSelectorExists !== null) {
+      const username = readlineSync.question('Masukkan username/email: ');
+  const password = readlineSync.question('Masukkan password: ', {
+    hideEchoBack: true, // Untuk menyembunyikan input password
+  });
       // Selector ditemukan, maka masukkan username/email
       await page.type("#mobile-number-or-email", username);
       
@@ -44,6 +45,9 @@ import readlineSync from 'readline-sync';
     } else {
       console.log("Selector #mobile-number-or-email tidak ditemukan.");
       await page.goto(url);
+
+      await page.click("#__next > main > div.productSlug_responsive_wrapper__e8KzT > div > div:nth-child(5) > div.SectionPackage_section_package__3zqwa > div.PackageSelection_package_wrapper__fpdG1 > div:nth-child(3) > div.PackageSelection_package_list__6zqVK > div:nth-child(3) > div.C5DY4q_card_header.PackageSelection_package_header__2bYay > div > h3");
+
     }
 
   } catch (error) {

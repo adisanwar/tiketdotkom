@@ -1,25 +1,25 @@
-2024/01/05-16:00:18.204 1a9c Reusing MANIFEST C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_www.tiket.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/05-16:00:18.205 1a9c Recovering log #10
-2024/01/05-16:00:18.205 1a9c Reusing old log C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_www.tiket.com_0.indexeddb.leveldb/000010.log 
-2024/01/05-16:00:18.205 1a9c Delete type=2 #8
-2024/01/05-16:00:18.307 1d0c Level-0 table #15: started
-2024/01/05-16:00:18.309 1d0c Level-0 table #15: 646 bytes OK
-2024/01/05-16:00:18.310 1d0c Delete type=0 #10
-2024/01/05-16:00:18.310 3010 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 64 : 1
-2024/01/05-16:00:18.311 3010 Compacting 1@0 + 1@1 files
-2024/01/05-16:00:18.312 3010 Generated table #16@0: 7 keys, 615 bytes
-2024/01/05-16:00:18.312 3010 Compacted 1@0 + 1@1 files => 615 bytes
-2024/01/05-16:00:18.313 3010 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/01/05-16:00:18.313 3010 Delete type=2 #15
-2024/01/05-16:00:18.314 3010 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 64 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/01/05-16:00:18.826 1d0c Level-0 table #18: started
-2024/01/05-16:00:18.832 1d0c Level-0 table #18: 655 bytes OK
-2024/01/05-16:00:18.833 1d0c Delete type=2 #12
-2024/01/05-16:00:18.833 1d0c Delete type=0 #14
-2024/01/05-16:00:18.833 3010 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 83 : 1
-2024/01/05-16:00:18.833 3010 Compacting 1@0 + 1@1 files
-2024/01/05-16:00:18.836 3010 Generated table #19@0: 11 keys, 630 bytes
-2024/01/05-16:00:18.836 3010 Compacted 1@0 + 1@1 files => 630 bytes
-2024/01/05-16:00:18.837 3010 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/01/05-16:00:18.838 3010 Delete type=2 #18
-2024/01/05-16:00:18.838 3010 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 83 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/05-16:42:01.180 439c Reusing MANIFEST C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_www.tiket.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/05-16:42:01.181 439c Recovering log #25
+2024/01/05-16:42:01.181 439c Reusing old log C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_www.tiket.com_0.indexeddb.leveldb/000025.log 
+2024/01/05-16:42:01.181 439c Delete type=2 #23
+2024/01/05-16:42:01.194 2ca0 Level-0 table #30: started
+2024/01/05-16:42:01.196 2ca0 Level-0 table #30: 649 bytes OK
+2024/01/05-16:42:01.197 2ca0 Delete type=0 #25
+2024/01/05-16:42:01.197 2ca0 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 140 : 1
+2024/01/05-16:42:01.197 2ca0 Compacting 1@0 + 1@1 files
+2024/01/05-16:42:01.199 2ca0 Generated table #31@0: 11 keys, 631 bytes
+2024/01/05-16:42:01.199 2ca0 Compacted 1@0 + 1@1 files => 631 bytes
+2024/01/05-16:42:01.199 2ca0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/05-16:42:01.200 2ca0 Delete type=2 #30
+2024/01/05-16:42:01.200 439c Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 140 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/05-16:42:01.685 2ca0 Level-0 table #33: started
+2024/01/05-16:42:01.687 2ca0 Level-0 table #33: 653 bytes OK
+2024/01/05-16:42:01.688 2ca0 Delete type=2 #27
+2024/01/05-16:42:01.688 2ca0 Delete type=0 #29
+2024/01/05-16:42:01.688 439c Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 159 : 1
+2024/01/05-16:42:01.688 439c Compacting 1@0 + 1@1 files
+2024/01/05-16:42:01.689 439c Generated table #34@0: 11 keys, 630 bytes
+2024/01/05-16:42:01.689 439c Compacted 1@0 + 1@1 files => 630 bytes
+2024/01/05-16:42:01.690 439c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/05-16:42:01.690 439c Delete type=2 #33
+2024/01/05-16:42:01.690 439c Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 159 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
