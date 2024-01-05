@@ -1,0 +1,10 @@
+2024/01/05-15:18:55.183 1cc Creating DB C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_en.tiket.com_0.indexeddb.leveldb since it was missing.
+2024/01/05-15:18:55.187 1cc Reusing MANIFEST C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_en.tiket.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/05-15:18:55.195 4020 Level-0 table #5: started
+2024/01/05-15:18:55.198 4020 Level-0 table #5: 662 bytes OK
+2024/01/05-15:18:55.199 4020 Delete type=0 #3
+2024/01/05-15:18:55.200 1cc Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/05-15:18:56.094 4020 Level-0 table #7: started
+2024/01/05-15:18:56.096 4020 Level-0 table #7: 658 bytes OK
+2024/01/05-15:18:56.100 4020 Delete type=0 #4
+2024/01/05-15:18:56.100 1cc Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

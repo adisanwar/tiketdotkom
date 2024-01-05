@@ -1,0 +1,13 @@
+2024/01/05-15:57:49.909 3c90 Reusing MANIFEST C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_www.tiket.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/05-15:57:49.910 3c90 Recovering log #7
+2024/01/05-15:57:49.910 3c90 Reusing old log C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_www.tiket.com_0.indexeddb.leveldb/000007.log 
+2024/01/05-15:57:49.933 4160 Level-0 table #11: started
+2024/01/05-15:57:49.934 4160 Level-0 table #11: 649 bytes OK
+2024/01/05-15:57:49.935 4160 Delete type=0 #7
+2024/01/05-15:57:49.935 1818 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 45 : 1
+2024/01/05-15:57:49.936 1818 Compacting 1@0 + 1@1 files
+2024/01/05-15:57:49.937 1818 Generated table #12@0: 7 keys, 615 bytes
+2024/01/05-15:57:49.937 1818 Compacted 1@0 + 1@1 files => 615 bytes
+2024/01/05-15:57:49.938 1818 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/05-15:57:49.938 1818 Delete type=2 #11
+2024/01/05-15:57:49.938 1818 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 45 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

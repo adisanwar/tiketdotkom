@@ -1,0 +1,23 @@
+2024/01/05-15:19:54.783 1cc Reusing MANIFEST C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_en.tiket.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/05-15:19:54.784 1cc Recovering log #6
+2024/01/05-15:19:54.784 1cc Reusing old log C:\Users\IT-MANDAU\AndroidStudioProjects\tiketdotkom\tmp\Default\IndexedDB\https_en.tiket.com_0.indexeddb.leveldb/000006.log 
+2024/01/05-15:19:54.787 4020 Level-0 table #10: started
+2024/01/05-15:19:54.789 4020 Level-0 table #10: 1696 bytes OK
+2024/01/05-15:19:54.790 4020 Delete type=0 #6
+2024/01/05-15:19:54.790 1d30 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 97 : 1
+2024/01/05-15:19:54.790 1d30 Compacting 1@0 + 1@1 files
+2024/01/05-15:19:54.791 1d30 Generated table #11@0: 42 keys, 1265 bytes
+2024/01/05-15:19:54.791 1d30 Compacted 1@0 + 1@1 files => 1265 bytes
+2024/01/05-15:19:54.792 1d30 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/05-15:19:54.792 1d30 Delete type=2 #10
+2024/01/05-15:19:54.792 1d30 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 97 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/05-15:19:56.025 4020 Level-0 table #13: started
+2024/01/05-15:19:56.028 4020 Level-0 table #13: 66957 bytes OK
+2024/01/05-15:19:56.029 4020 Delete type=2 #7
+2024/01/05-15:19:56.029 4020 Delete type=0 #9
+2024/01/05-15:19:56.030 1cc Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 1220 : 1
+2024/01/05-15:19:56.030 1cc Compacting 1@0 + 1@1 files
+2024/01/05-15:19:56.039 1cc Generated table #14@0: 639 keys, 42714 bytes
+2024/01/05-15:19:56.039 1cc Compacted 1@0 + 1@1 files => 42714 bytes
+2024/01/05-15:19:56.040 1cc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/05-15:19:56.040 1cc Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 1220 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
