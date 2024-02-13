@@ -1,20 +1,32 @@
 import { launch } from "puppeteer";
 import readlineSync from 'readline-sync';
+import os from 'os';
 
 (async () => {
-  const url = readlineSync.question('Masukkan URL atau link: ');
-  const browser = await launch({
-    executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe",
-    headless: false,
-    defaultViewport: false,
-    userDataDir: "./tmp",
-  });
+  let url = readlineSync.question('Masukkan URL atau link: ');
+  let executablePath;
+
+if (os.platform() !== 'win32') {
+  // Jika sistem operasi adalah Windows
+  // executablePath = "C:/Program Files/Google/Chrome/Application/chrome.exe";
+} else {
+  // Jika sistem operasi bukan Windows (misalnya Linux atau MacOS)
+  // Gantilah dengan path sesuai dengan sistem operasi tersebut
+  executablePath = "/usr/bin/google-chrome";
+}
+
+const browser = await launch({
+  executablePath,
+  headless: false,
+  defaultViewport: false,
+  userDataDir: "./tmp",
+});
+
   const page = await browser.newPage();
 
   await page.goto(url);
 
   try {
-    
     
     // Periksa apakah selector #mobile-number-or-email ada di halaman
     const isSelectorExists = await page.$("#mobile-number-or-email");
